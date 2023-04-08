@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .navigation {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  background-color: burlywood;
+  padding: 1rem 2px 1rem 2px;
+  
+   border-radius: 10px;
+}
+  
+  /* .dropdown-toggle {
+    background-color: #884AFF;
+  }
+  .dropdown-toggle:hover {
+    background-color: #884AFF;
+  }
+   */
+  .icons-parent {
+    display: flex;
+    gap: 1rem;
+  }
+  .icons-parent .icons a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+  }
+  .icons-parent .icons a:hover {
+    background: yellow;
+    padding: 7px;
+    border-radius: 9px;
+    color: rgb(0, 0, 0);
+  }
+
+
+
+
+
+
+  .form-parent{
+    display: flex;
+ justify-content: center; 
+    align-items: center;  
+    height: 100svh;
+   width: 100%;
+
+
+    background-image: url(../image/china/china-2.png);
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size:cover ;
+    /* background-position: center; */
+}
+
+
+  
+  
+ /* .sub-class-2{
+  
+  border: 3px blue solid;
+   
+  } */
+
+  form{
+    width: fit-content;
+
+    background-color: rgb(255, 248, 248);
+    /* opacity: 0.8; */
+    /* margin-top: 3rem; */
+    border: 1px gray solid;
+    /* box-shadow: 10px 10px 10px gray; */
+
+    padding: 2rem;
+  }
+  /* form input{
+   width: 100%;
+  } */
+ .username{
+      display: flex;
+      gap: 2rem;
+  }
+
+  form input {
+    width: 100%;
+  }
+
+  form >button{
+    margin:1rem 2px 1rem 2px ;
+    padding: 0.5em;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #884AFF;
+  }

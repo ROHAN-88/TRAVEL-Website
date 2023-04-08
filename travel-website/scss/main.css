@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation {
+  margin-top: 1rem;
+  background: transparent;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+}
+
+.dropdown-toggle {
+  background-color: #884AFF;
+}
+.dropdown-toggle:hover {
+  background-color: #884AFF;
+}
+
+.icons-parent {
+  display: flex;
+  gap: 1rem;
+}
+.icons-parent .icons a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+.icons-parent .icons a:hover {
+  background: yellow;
+  padding: 7px;
+  border-radius: 9px;
+  color: rgb(0, 0, 0);
+}
+
+.parent-1 {
+  display: flex;
+  height: 100vh;
+  background: url(/image/Hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.parent-1 .absoute-img {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 20%;
+  right: 20%;
+  transform: rotate(-80deg);
+}
+.parent-1 .absoute-img-2 {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: rotate(30deg);
+}
+.parent-1 .absoute-img-3 {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  left: 10%;
+  top: 27%;
+}
+.parent-1 .absoute-img-4 {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  right: 10%;
+  top: 27%;
+}
+.parent-1 .booking-text {
+  margin-left: 13rem;
+  width: 8rem;
+}
+.parent-1 .booking-text h5 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+.parent-1 .form-main {
+  margin: auto;
+}
+.parent-1 .border-1 {
+  background-color: rgba(225, 218, 218, 0.5);
+  -webkit-backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+.form-nav {
+  margin: auto;
+  box-shadow: 0 0 3px 3px rgb(190, 180, 180);
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.form-nav .border-left {
+  border-right: 2px black solid;
+}
+.form-nav .date {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.form-nav .date input {
+  border: none;
+}
+.form-nav .search-btn {
+  background: #884AFF;
+  display: flex;
+  margin-left: 2rem;
+  padding: 4px;
+  border-radius: 15px;
+}
+.form-nav .search-btn svg {
+  margin: auto;
+}
+.form-nav .dropdown-menu > li:hover {
+  cursor: pointer;
+  background: rgba(177, 174, 174, 0.5);
+}
+
+.parent-2 > * {
+  text-align: center;
+}
+
+.parent-2 {
+  margin-top: 100px;
+  height: 60svh;
+}
+.parent-2 .text-2 {
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.parent-3 {
+  display: flex;
+  justify-content: center;
+  background: rgb(228, 223, 223);
+  height: 100svh;
+}
+.parent-3 .slider img {
+  height: 90vh;
+  width: 50vh;
+}
+
+footer {
+  font-size: 20px;
+  background-color: rgb(215, 212, 212);
+}
+
+#parent-fivith {
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: rgb(212, 209, 209);
+}
+
+#parent-fivith ul {
+  list-style: none;
+}
+
+#parent-fivith ul > li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+#parent-fivith ul > li > a:hover {
+  color: #31006E;
+}
+
+#parent-fivith h3 {
+  /* margin: 0%; */
+  color: #53258a;
+}
+
+.purple-lettle {
+  color: #31006E;
+}
+
+.column-2 > h5 {
+  font-size: 10px;
+  color: black;
+}
+
+.column-2 > h5:hover {
+  cursor: pointer;
+  color: #31006E;
+}
+
+.navi-footer {
+  display: flex;
+  gap: 3rem;
+}/*# sourceMappingURL=main.css.map */

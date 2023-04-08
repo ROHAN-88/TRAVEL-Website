@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .navigation {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  background-color: burlywood;
+  padding: 1rem 2px 1rem 2px;
+  
+   border-radius: 10px;
+}
+  
+  /* .dropdown-toggle {
+    background-color: #884AFF;
+  }
+  .dropdown-toggle:hover {
+    background-color: #884AFF;
+  }
+   */
+  .icons-parent {
+    display: flex;
+    gap: 1rem;
+  }
+  .icons-parent .icons a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+  }
+  .icons-parent .icons a:hover {
+    background: yellow;
+    padding: 7px;
+    border-radius: 9px;
+    color: rgb(0, 0, 0);
+  }
+
+h2{
+    text-align: center;
+    margin: 1rem 0px;
+}
+
+
+
+  main .row{
+    margin-top: 1rem ;
+    margin-bottom: 1rem;
+  }
+
+
+
+
+
+button{
+    background-color:#53258a;
+    color: white;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 0.2rem;
+}
+
+
+  footer {
+    font-size: 20px;
+    background-color: rgb(215, 212, 212);
+  }
+  
+  #parent-fivith {
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: rgb(212, 209, 209);
+  }
+  
+  #parent-fivith ul {
+    list-style: none;
+  }
+  
+  #parent-fivith ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+  
+  #parent-fivith ul > li > a:hover {
+    color: #31006E;
+  }
+  
+  #parent-fivith h3 {
+    /* margin: 0%; */
+    color: #53258a;
+  }
+  
+  .purple-lettle {
+    color: #31006E;
+  }
+  
+  .column-2 > h5 {
+    font-size: 10px;
+    color: black;
+  }
+  
+  .column-2 > h5:hover {
+    cursor: pointer;
+    color: #31006E;
+  }
+  
+  .navi-footer {
+    display: flex;
+    gap: 3rem;
+  }
